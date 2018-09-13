@@ -10,7 +10,7 @@ class Hero
   end
 
   def self.all
-    @@ships
+    @@heroes
   end
 
 end
