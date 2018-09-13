@@ -12,8 +12,8 @@ class App < Sinatra::Base
     end
 
     post '/teams' do
-      puts params
-      # @team = Team.new(params[:team])
+      # puts params
+      @team = Team.new(params[:team])
       #
       # params[:team][:heroes].each do |details|
       #   Hero.new(details)
