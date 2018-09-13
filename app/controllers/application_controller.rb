@@ -12,7 +12,7 @@ class App < Sinatra::Base
     end
 
     post '/teams' do
-      puts 
+      puts params
       # @team = Team.new(params[:team])
       #
       # params[:team][:heroes].each do |details|
