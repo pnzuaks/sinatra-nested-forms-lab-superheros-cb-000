@@ -20,7 +20,7 @@ class App < Sinatra::Base
         @heroes << Hero.new(details)
     end
 
-    # erb :team
+    erb :team
   end
 
 end
